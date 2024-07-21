@@ -8,7 +8,8 @@ import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
 import BaseLayer.BaseClass;
-import UtilityLayer.HandleDropdown;
+import UtilityLayer.HandleDopdown;
+
 import UtilityLayer.Wait;
 
 public class ContactPage extends BaseClass
@@ -68,7 +69,7 @@ public class ContactPage extends BaseClass
 		Wait.sendKeys(fname, fname1);
 		Wait.sendKeys(mname, mname1);
 		Wait.sendKeys(lname, lname1);
-		HandleDropdown hd=new HandleDropdown();
+		HandleDopdown hd=new HandleDopdown();
 		Wait.click(category);
 		hd.selectDropDown(listCategory, status1);
 	    

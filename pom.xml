@@ -63,11 +63,7 @@
 			<version>2.11.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>BDDFramePOMParallel</groupId>
-			<artifactId>BDDFramePOMParallel</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+	
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
@@ -99,10 +95,6 @@
 			<version>1.0-beta</version>
 		</dependency>
 
-		<dependency>
-			<groupId>BDDFramePOM</groupId>
-			<artifactId>BDDFramePOM</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
   </dependencies>
 </project>
